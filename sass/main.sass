@@ -1,0 +1,181 @@
+@import "fonts"
+@import "libs"
+@import "vars"
+
+
+body
+	background-color: #F5F5F5
+
+
+
+nav.top-bar
+	padding: 0 !important
+	background-color: $accent;
+	.nav-logo
+		span
+			font-family: "Segoe UI", sans-serif
+		font-size: 35px
+		color: #fff !important
+
+	ul
+		font-family: "Open Sans", sans-serif
+		font-size: 28px
+		.main-button
+			background-color: darken($accent, 20%)
+		.button:hover
+			background-color: darken($accent, 20%)
+		li
+			padding-left: 60px
+		a
+			color: #FFF !important
+
+	.navbar-toggler-right
+		height: 60px
+
+
+
+.header-heading
+	font-family: "Railway", sans-serif
+	h1
+		font-size: 50px
+	padding-top: 30px
+	.hr-line
+		height: 5px
+		background: black
+
+
+
+	
+
+.first-carousel
+	h2
+		font-family: "Fira Sans", sans-serif
+		font-size: 43px
+	.first-element
+		padding-top: 80px
+	.book-cover
+		height: 434px
+		width: 292px
+		// background-size: cover
+		// background-image: url(../img/book1.jpeg)
+
+	.info-block
+		position: relative
+
+	.content
+		font-family: "Fira Sans", sans-serif
+		font-size: 36px
+		line-height: 43px
+
+	.buttons
+		position: absolute
+		bottom: 0
+		color: #fff
+		height: 64px
+		font-size: 28px
+		.show
+			font-family: "Fira Sans", sans-serif
+			line-height: 64px
+			width: 307px
+			background: $accent
+		.to-cart
+			width: 64px
+			line-height: 64px
+			background: $accent
+		
+
+.search-bar
+	position: relative
+	background-color: #F5F5F5
+	border: 1px #95989A solid
+	height: 66px
+	.selectors
+		height: 66px
+	.input-group
+		max-width: 200px
+	.search-button
+		color: #fff
+		font-size: 40px
+		height: 100%
+		width: 109px
+		top: 0
+		right: 0
+		position: absolute
+		background-color: #565656
+
+
+
+
+
+
+.main-content
+	font-family: "Fira Sans", sans-serif
+	.book-info
+		position: relative
+		.buttons
+			position: absolute
+			bottom: 0
+			color: #fff
+			height: 53px
+			font-size: 24px
+			.show
+				font-family: "Fira Sans", sans-serif
+				height: 100%
+				width: 186px
+				background: $accent
+				line-height: 53px
+			.to-cart
+				font-size: 33px
+				width: 50px
+				background: $accent
+				line-height: 53px
+
+	.book-cover
+		min-height: 352px
+		width: 230px
+	h1
+		font-size: 30px
+		font-weight: bold
+	.book-d
+		padding-left: 20px
+		p
+			font-size: 25px
+			line-height: 30px
+
+	.hr-line
+		height: 18px
+		background: $accent
+		margin-top: 70px
+
+
+footer
+	.container
+		padding-top: 40px
+	color: #fff
+	font-family: "Fira Sans", sans-serif
+	height: 500px
+	width: 100%
+	background: $accent
+	margin-top: 50px
+	font-size: 20px
+	h1
+		font-size: 35px
+
+
+	.logo
+		i
+			font-size: 40px
+		font-family: "Segoe UI", sans-serif
+		font-size: 30px
+		.under-text
+			text-align: right
+			font-family: "Fira Sans", sans-serif
+			font-size: 20px
+
+
+
+
+
+
+
+@import "media" // Всегда в конце

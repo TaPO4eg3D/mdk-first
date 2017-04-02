@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Highway of books</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+
+  <!-- Start of navigation block -->
+  <nav class="navbar navbar-light navbar-toggleable-md top-bar">
+    <div class="container">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand nav-logo pl-2" href="#"><i class="fa fa-book" aria-hidden="true"></i><span class="pl-2">Highway of books</span></a>
+      <div class="collapse navbar-collapse nav-buttons" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <div class="main-button button">
+              <a href="" class="nav-link">Книги</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="button">
+              <a href="" class="nav-link">Жанры</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="button">
+              <a href="" class="nav-link">Авторы</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="button">
+              <a href="" class="nav-link">Новинки</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End of navigation block -->
+
+  <!-- header-heading start-->
+  <div class="container header-heading">
+    <h1 class="mx-auto text-center">Лучшие книги</h1>
+    <div class="hr-line">
+
+    </div>
+  </div>
+  <!-- header-heading end-->
+
+  <!-- Start of carousel in header -->
+  <div class="first-carousel">
+    <div>
+      <div class="container">
+        <div class="row first-element">
+          <div class="col-md-4 hidden-sm-down">
+            <img src="img/book1.jpeg" class="book-cover img-fluid" alt="">
+          </div>
+          <div class="col-sm-6 offset-1 info-block">
+            <h2>Пятьдесят оттенков серого</h2>
+            <div class="content">
+              Первая часть трилогии Э.Л. Джеймс, которая сделала автора знаменитой и побила все рекорды продаж во всем мире. По мнению Лисс Штерн «эти книги способны разжечь огонь любви между супругами с большим стажем.
+            </div>
+            <div class="buttons d-flex align-items-center">
+              <div class="show text-center text-uppercase">
+                просмотреть
+              </div>
+              <div class="to-cart text-center ml-3">
+                <span><i class="fa fa-shopping-cart" aria-hidden="true"></i></span>
+              </div>
+            </div>
+          </div> 
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="container">
+        <div class="row first-element">
+          <div class="col-md-4 hidden-sm-down">
+            <img src="img/book2.jpeg" class="book-cover" alt="">
+          </div>
+          <div class="col-sm-6 offset-1 info-block">
+            <h2>Обаженная для тебя</h2>
+            <div class="content">
+              Ева и Гидеон внешне вполне успешные и благополучные люди, но внутри каждого из них скрыто слишком много мрачных секретов. Им придется пройти долгий непростой путь навстречу, прежде чем они смогут обнажить...
+              <div class="buttons d-flex align-items-center">
+                <div class="show text-center text-uppercase">
+                  просмотреть
+                </div>
+                <div class="to-cart text-center ml-3">
+                  <span><i class="fa fa-shopping-cart" aria-hidden="true"></i></span>
+                </div>
+              </div>
+            </div>
+          </div> 
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="container">
+        <div class="row first-element">
+          <div class="col-md-4 hidden-sm-down">
+            <img src="img/book3.jpeg" class="book-cover" alt="">
+          </div>
+          <div class="col-sm-6 offset-1 info-block">
+            <h2>Гарри Поттер и проклятое дитя</h2>
+            <div class="content">
+              Прошло девятнадцать лет... 
+              <br>
+              Быть Гарри Поттером всегда непросто. Вот и сейчас ему, сверх меры загруженному работой в Министерстве Магии, мужу и отцу троих детей школьного...
+            </div>
+            <div class="buttons d-flex align-items-center">
+              <div class="show text-center text-uppercase">
+                просмотреть
+              </div>
+              <div class="to-cart text-center ml-3">
+                <span><i class="fa fa-shopping-cart" aria-hidden="true"></i></span>
+              </div>
+            </div>
+          </div> 
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End of carousel -->
+
+  <!-- start of search bar -->
+  <div class="container-fluid search-bar mt-5">
+    <div class="container">
+      <div class="selectors d-flex align-items-center justify-content-between">
+        <div class="input-group">
+          <input type="text" class="form-control" value="Жанр" aria-label="Text input with dropdown button">
+          <div class="input-group-btn">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            </button>
+            <div class="dropdown-menu dropdown-menu-right">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+              <div role="separator" class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Separated link</a>
+            </div>
+          </div>
+        </div>           
+        <div class="input-group">
+          <input type="text" class="form-control" value="Год" aria-label="Text input with dropdown button">
+          <div class="input-group-btn">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            </button>
+            <div class="dropdown-menu dropdown-menu-right">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+              <div role="separator" class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Separated link</a>
+            </div>
+          </div>
+        </div>             
+        <div class="input-group">
+          <input type="text" class="form-control" value="Страна" aria-label="Text input with dropdown button">
+          <div class="input-group-btn">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            </button>
+            <div class="dropdown-menu dropdown-menu-right">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+              <div role="separator" class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Separated link</a>
+            </div>
+          </div>
+        </div>        
+        <div class="input-group">
+          <input type="text" class="form-control" value="По языку" aria-label="Text input with dropdown button">
+          <div class="input-group-btn">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            </button>
+            <div class="dropdown-menu dropdown-menu-right">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+              <div role="separator" class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Separated link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="search-button text-center">
+      <i class="fa fa-search" aria-hidden="true"></i>
+    </div>
+  </div>
+    <!-- end of search bar -->
+    
+    <!-- content -->
+    <div class="container main-content pt-5">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="book-info d-flex">
+            <img src="img/book2.jpeg" class="book-cover" alt="">
+            <div class="book-d">
+              <h1>Обнаженная для тебя</h1>
+              <p>
+                Ева и Гидеон внешне вполне успешные и благополучные люди, но внутри каждого из них скрыто слишком много мрачных секретов. Им придется пройти долгий непростой путь навстречу...
+              </p>
+              <div class="buttons d-flex align-items-center">
+                <div class="show text-center text-uppercase">
+                  просмотреть
+                </div>
+                <div class="to-cart text-center ml-3">
+                  <span><i class="fa fa-shopping-cart" aria-hidden="true"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="book-info d-flex">
+            <img src="img/book2.jpeg" class="book-cover" alt="">
+            <div class="book-d">
+              <h1>Обнаженная для тебя</h1>
+              <p>
+                Ева и Гидеон внешне вполне успешные и благополучные люди, но внутри каждого из них скрыто слишком много мрачных секретов. Им придется пройти долгий непростой путь навстречу...
+              </p>
+              <div class="buttons d-flex align-items-center">
+                <div class="show text-center text-uppercase">
+                  просмотреть
+                </div>
+                <div class="to-cart text-center ml-3">
+                  <span><i class="fa fa-shopping-cart" aria-hidden="true"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hr-line">
+
+      </div>      
+      <div class="row pt-5">
+        <div class="col-sm-6">
+          <div class="book-info d-flex">
+            <img src="img/book2.jpeg" class="book-cover" alt="">
+            <div class="book-d">
+              <h1>Обнаженная для тебя</h1>
+              <p>
+                Ева и Гидеон внешне вполне успешные и благополучные люди, но внутри каждого из них скрыто слишком много мрачных секретов. Им придется пройти долгий непростой путь навстречу...
+              </p>
+              <div class="buttons d-flex align-items-center">
+                <div class="show text-center text-uppercase">
+                  просмотреть
+                </div>
+                <div class="to-cart text-center ml-3">
+                  <span><i class="fa fa-shopping-cart" aria-hidden="true"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="book-info d-flex">
+            <img src="img/book2.jpeg" class="book-cover" alt="">
+            <div class="book-d">
+              <h1>Обнаженная для тебя</h1>
+              <p>
+                Ева и Гидеон внешне вполне успешные и благополучные люди, но внутри каждого из них скрыто слишком много мрачных секретов. Им придется пройти долгий непростой путь навстречу...
+              </p>
+              <div class="buttons d-flex align-items-center">
+                <div class="show text-center text-uppercase">
+                  просмотреть
+                </div>
+                <div class="to-cart text-center ml-3">
+                  <span><i class="fa fa-shopping-cart" aria-hidden="true"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hr-line">
+
+      </div>
+      <div class="row pt-5">
+        <div class="col-sm-6">
+          <div class="book-info d-flex">
+            <img src="img/book2.jpeg" class="book-cover" alt="">
+            <div class="book-d">
+              <h1>Обнаженная для тебя</h1>
+              <p>
+                Ева и Гидеон внешне вполне успешные и благополучные люди, но внутри каждого из них скрыто слишком много мрачных секретов. Им придется пройти долгий непростой путь навстречу...
+              </p>
+              <div class="buttons d-flex align-items-center">
+                <div class="show text-center text-uppercase">
+                  просмотреть
+                </div>
+                <div class="to-cart text-center ml-3">
+                  <span><i class="fa fa-shopping-cart" aria-hidden="true"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="book-info d-flex">
+            <img src="img/book2.jpeg" class="book-cover" alt="">
+            <div class="book-d">
+              <h1>Обнаженная для тебя</h1>
+              <p>
+                Ева и Гидеон внешне вполне успешные и благополучные люди, но внутри каждого из них скрыто слишком много мрачных секретов. Им придется пройти долгий непростой путь навстречу...
+              </p>
+              <div class="buttons d-flex align-items-center">
+                <div class="show text-center text-uppercase">
+                  просмотреть
+                </div>
+                <div class="to-cart text-center ml-3">
+                  <span><i class="fa fa-shopping-cart" aria-hidden="true"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of content -->
+
+    <!-- start of pagination -->
+    <div class="container">
+      <div class="row d-flex justify-content-center pt-5">
+        <nav aria-label="Page navigation example">
+          <ul class="pagination">
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+                <span class="sr-only">Previous</span>
+              </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">4</a></li>
+            <li class="page-item"><a class="page-link" href="#">5</a></li>
+            <li class="page-item"><a class="page-link" href="#">6</a></li>
+            <li class="page-item"><a class="page-link" href="#">7</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+                <span class="sr-only">Next</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <!-- end of pagination -->
+
+    <!-- start of footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+         <div class="col-sm-8">
+          <div class="info d-flex justify-content-between">
+            <div class="block d-flex flex-column">
+              <h1>Наш сервис</h1><br>
+              <div>О проекте</div><br>
+              <div>Комманда</div><br>
+              <div>Клубный дом</div><br>
+              <div>Виджеты</div><br>
+              <div>Статистика</div><br>
+              <div>Аналитика</div><br>
+            </div>
+            <div class="block d-flex flex-column">
+              <h1>Разделы</h1><br>
+              <div>Что прочитать</div><br>
+              <div>Лучшие книги</div><br>
+              <div>Популярное</div><br>
+              <div>Рецензии</div><br>
+              <div>Бесплатные книги</div><br>
+            </div>
+            <div class="block d-flex flex-column">
+              <h1>Сотрудничество</h1><br>
+              <div>Реклама</div><br>
+              <div>Услуги</div><br>
+              <div>Партнеры</div><br>
+              <div>Связь с администрацией</div><br>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 logo">
+          <div class="row justify-content-end">
+            <i class="fa fa-book" aria-hidden="true"></i><span class="pl-2">Highway of books</span>
+            <div class="under-text d-flex flex-column">
+              <span>© 2006-2017 </span>
+              <span>Все права защищены</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+    <!-- end of footer -->
+
+
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src='js/scripts.min.js'></script>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.first-carousel').slick({
+          arrows: false,
+          autoplay: true
+        });
+      });
+    </script>
+  </body>
+  </html>
