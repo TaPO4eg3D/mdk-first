@@ -1,0 +1,101 @@
+.select-pizza{
+  position: relative;
+  top: -80px;
+  margin-bottom: -80px;
+  z-index: 1;
+  .fill{
+    padding-bottom: 40px;
+    background-color: #fff;
+  }
+}
+
+
+.pizza-slider{
+  position: relative;
+  margin-top: 58px;
+  .pizza-item{
+    position: relative;
+    max-width: 290px;
+  }
+  .cover{
+    position: relative;
+    height: 358px;
+    background-image: url(../img/fill_item.jpg);
+    color: #fff;
+    font-family: "RobotoCondensedBold", sans-serif;
+    img{
+      position: absolute;
+      top: 55px;
+      left: 0;
+      right: 0;
+      margin: auto;
+      width: 200px;
+    }
+    .price{
+      display: inline-block;
+      font-size: 24px;
+      padding: 5px 15px;
+      background-color: $accent;
+      position: absolute;
+      right: -15px;
+      bottom: 30px;
+      span{
+        font-size: 20px;
+      }
+    }
+  }
+  h2{
+    font-family: "RalewayExtraBold", sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    position: relative;
+    padding-top: 30px;
+    &::before{
+      content: '';
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: -15px;
+      width: 100%;
+      height: 2px;
+      background-color: $accent;
+    }
+  }
+  p{
+    margin-top: 35px;
+    font-family: "RalewayRegular", sans-serif;
+    font-size: 16px;
+    span{
+      display: block;
+      b{
+        font-family: "RalewayBold", sans-serif;
+      }
+      color: #666666;
+      font-size: 14px;
+      margin-top: 20px;
+    }
+  }
+  .pizza-select-button{
+    margin-top: 8px;
+  }
+}
+.owl-wrapper{
+  width: 960px;
+  .owl-next, .owl-prev{
+    position: absolute;
+    top: 200px;
+    height: 30px;
+    color: $accent;
+    font-size: 62px;
+    transition: color .1s ease;
+    &:hover{
+      color: darken(#fff, 40%);
+    }
+  }
+  .owl-prev{
+    left: -60px;
+  }
+  .owl-next {
+    right: -40px;
+  }
+}

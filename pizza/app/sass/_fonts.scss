@@ -1,0 +1,9 @@
+@import "_mixins/font-face";
+
+@include font-face("RalewayBold", "../fonts/Raleway/RalewayBold/RalewayBold");
+@include font-face("NautilusPompilius", "../fonts/NautilusPompilius/NautilusPompiliusRegular/NautilusPompiliusRegular");
+@include font-face("RalewayRegular", "../fonts/Raleway/RalewayRegular/RalewayRegular");
+@include font-face("RobotoCondensedBold", "../fonts/RobotoCondensedBold/RobotoCondensedBold");
+@include font-face("IsadoraBold", "../fonts/IsadoraBold/IsadoraBold");
+@include font-face("RalewayBlack", "../fonts/Raleway/RalewayBlack/RalewayBlack");
+@include font-face("RalewayExtraBold", "../fonts/Raleway/RalewayExtraBold/RalewayExtraBold");

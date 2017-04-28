@@ -1,0 +1,237 @@
+@import "vars";
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px){
+	// Header start
+	.nav-link{
+		.fa{
+			display: none;
+		}
+	}
+	.slide{
+		img{
+			top: -85px !important;
+			margin-left: 60px;
+		}
+	}
+	// Header end
+
+	// Pizza start
+	.owl-wrapper{
+		width: 790px;
+		.owl-prev{
+			left: -60px;
+		}
+		.owl-next {
+			right: -60px;
+		}
+	}
+	.price{
+		right: 0 !important;
+	}
+	// Pizza end
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px){
+	.nav-item{
+		padding: 0 !important;
+		.nav-link{
+			padding: 20px !important;
+		}
+	}
+	.phone{
+		position: absolute;
+		right: 0;
+		top: 40px;
+	}
+	.slide{
+		top: 300px !important;
+		h1{
+			font-size: 40px !important;
+		}
+		p{
+			font-size: 12px !important;
+		}
+		img{
+			top: -55px !important;
+			margin-left: 60px;
+		}
+	}
+	.owl-next, .owl-prev{
+		top: 360px !important;
+	}
+	// Pizza start
+	.owl-wrapper{
+		width: 600px;
+		.owl-prev{
+			left: -90px;
+		}
+		.owl-next {
+			right: -90px;
+		}
+	}
+	.price{
+		right: 0 !important;
+	}
+	// Pizza end
+
+	// Salad start
+	.salad-slider{
+		.owl-next, .owl-prev{
+			top: 200px !important;
+		}
+	}
+	// Salad end
+
+	// Drinks start
+	.drinks-slider{
+		.owl-next, .owl-prev{
+			top: 60px !important;
+		}
+	}
+	// Drink end
+}
+
+
+@media only screen and (max-width : 768px){
+	.slider-info{
+		text-align: center;
+	}
+	.slide{
+		top: 250px !important;
+	}
+	// Pizza start
+	.owl-wrapper{
+		width: 450px;
+		.owl-prev{
+			left: -30px;
+		}
+		.owl-next {
+			right: -30px;
+		}
+	}
+	.price{
+		right: 0 !important;
+	}
+	.pizza-item{
+		margin: 0 auto;
+	}
+	// Pizza end
+
+	// Salad start
+	.salad-slider{
+		.owl-next{
+			right: -40px;
+		}
+	}
+	// Salad end
+	// Drinks start
+	.drinks-slider{
+		.drinks-item{
+			margin: auto;
+		}
+	}
+	// Drink end
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 575px){
+	.phone{
+		display: none;
+	}
+	// Pizza start
+	.owl-wrapper{
+		.owl-prev{
+			left: -10px;
+		}
+		.owl-next {
+			right: -10px;
+		}
+	}
+	// Pizza end
+	.salad-slider{
+		.owl-next, .owl-prev{
+			display: none;
+		}
+	}
+	.salad-item{
+		margin: auto;
+	}
+	// Drinks start
+	.drinks-slider{
+		.owl-prev{
+	    left: 0px;
+	  }
+	  .owl-next {
+	  	right: 0px;
+	  }
+	}
+	// Drink end
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px){
+	.owl-wrapper{
+		width: 400px;
+		.owl-prev{
+			left: 0px;
+		}
+		.owl-next {
+			right: 0px;
+		}
+	}
+	.salad-item{
+		margin: auto;
+	}
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 321px){
+	.owl-wrapper{
+		width: 300px;
+		.owl-prev{
+			left: 0px;
+		}
+		.owl-next {
+			right: 0px;
+		}
+		.owl-next, .owl-prev{
+			.fa{
+				display: none;
+			}
+		}
+	}
+}
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	{}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	{}
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	{}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	{}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	{}

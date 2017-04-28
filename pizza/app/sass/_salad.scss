@@ -1,0 +1,89 @@
+.select-salad{
+  position: relative;
+  width: 100%;
+  background-image: url(../img/overlay.png);
+  // background-size: cover;
+  color: #fff;
+  padding-bottom: 80px;
+}
+.salad-slider{
+  .salad-item{
+    width: 263px;
+    .salad-cover{
+      position: relative;
+      height: 177px;
+      background-image: url(../img/salat1.png);
+      .salad-price{
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        bottom: -32px;
+        font-family: "RalewayRegular", sans-serif;
+        font-size: 12px;
+        width: 64px;
+        height: 64px;
+        background-color: $accent;
+        text-align: center;
+        border-radius: 50%;
+        span{
+          font-family: "RalewayBold", sans-serif;
+        }
+        div{
+          position: relative;
+          top: 15px;
+        }
+      }
+    }
+    .salad-info{
+      text-align: center;
+      background-color: #fff;
+      color: #000;
+      h2{
+        font-family: "RalewayExtraBold", sans-serif;
+        font-size: 18px;
+        text-transform: uppercase;
+        padding-top: 40px;
+      }
+      p{
+        padding: 15px;
+        font-family: "RalewayRegular", sans-serif;
+        font-size: 13px;
+        margin: 0;
+      }
+    }
+    .salad-ingr{
+      font-family: "RalewayRegular", sans-serif;
+      font-size: 12px;
+      color: #000;
+      background-color: #F2F2F2;
+      text-align: center;
+      padding: 10px 20px;
+      span{
+        font-family: "RalewayBold", sans-serif;
+      }
+    }
+    .salad-button{
+      display: block;
+      text-align: center;
+      padding: 12px;
+    }
+  }
+  .owl-next, .owl-prev{
+    position: absolute;
+  	top: 180px;
+  	height: 30px;
+    color: #fff;
+    font-size: 38px;
+    transition: color .1s ease;
+    &:hover{
+      color: darken(#fff, 40%);
+    }
+  }
+  .owl-prev{
+    left: -50px;
+  }
+  .owl-next {
+  	right: -50px;
+  }
+}

@@ -1,0 +1,57 @@
+.select-drinks{
+  position: relative;
+  padding-bottom: 80px;
+}
+
+.drinks-slider{
+  .drinks-item{
+    max-width: 165px;
+    &-cover{
+      img{
+        display: block;
+        width: 64px;
+        margin: auto;
+      }
+    }
+    &-describe{
+      padding-top: 44px;
+      padding-bottom: 15px;
+      h2{
+        font-family: "RalewayExtraBold", sans-serif;
+        font-size: 15px;
+        text-transform: uppercase;
+        text-align: center;
+      }
+      p{
+        font-family: "RalewayExtraBold", sans-serif;
+        font-size: 13px;
+        text-align: center;
+        color: #999;
+      }
+    }
+    &-button{
+      display: inline;
+      padding: 10px 36px;
+    }
+  }
+  .owl-next, .owl-prev{
+    position: absolute;
+  	top: 100px;
+  	height: 30px;
+    color: $accent;
+    font-size: 38px;
+    transition: color .1s ease;
+    &:hover{
+      color: darken($accent, 10%);
+    }
+  }
+  .owl-prev{
+    left: -100px;
+  }
+  .owl-next {
+  	right: -100px;
+  }
+  .owl-stage-outer{
+    height: 360px;
+  }
+}

@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Title</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+</head>
+
+<body>
+	<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+		<div class="container">
+		  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <a class="navbar-brand" href="#">
+				<div class="logo">
+					<div class="logo-img">
+						<img src="img/logo.svg" alt="">
+					</div>
+					<div class="logo-text">
+						<span>Пицца</span><br> на дом
+					</div>
+				</div>
+			</a>
+
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav mr-auto">
+		      <li class="nav-item">
+		        <a class="nav-link" href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Начало</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Выбрать пиццу</a>
+		      </li>
+					<li class="nav-item">
+		        <a class="nav-link" href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Выбрать закуску</a>
+		      </li>
+					<li class="nav-item">
+		        <a class="nav-link" href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Выбрать напитки</a>
+		      </li>
+		    </ul>
+				<ul class="navbar-nav ml-auto">
+		      <li class="nav-item">
+						<div class="phone">
+							<div class="phone-info">
+								Заказать по телефону:
+							</div>
+							<div class="phone-number">
+								<i class="fa fa-phone" aria-hidden="true"></i><span>+7 (495)</span> 923-35-74
+							</div>
+						</div>
+		      </li>
+		    </ul>
+		  </div>
+		</div>
+	</nav>
+	<!-- Slider start  -->
+	<section class="slider">
+		<div class="slider-bg" style="background-image: url(img/bg.jpg);"></div>
+		<div class="owl-carousel header-slider">
+			<div class="slide">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4 col-sm-12 offset-md-1 slider-info">
+							<h2>Пицца<br>Неополитана</h2>
+							<p>Великолепная, пикантная, горячая</br> итальянская пицца с аппетитным</br> французским сыром.</p>
+							<div class="select-button button">
+								<i class="fa fa-check" aria-hidden="true"></i>Выбрать
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<img src="img/pizza.png" alt="pizza" class="img-fluid hidden-sm-down">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="slide">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4 col-sm-12 offset-md-1 slider-info">
+							<h2>Пицца<br>Неополитана</h2>
+							<p>Великолепная, пикантная, горячая</br> итальянская пицца с аппетитным</br> французским сыром.</p>
+							<div class="select-button button">
+								<i class="fa fa-check" aria-hidden="true"></i>Выбрать
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<img src="img/pizza.png" alt="pizza" class="img-fluid hidden-sm-down">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="slide">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4 col-sm-12 offset-md-1 slider-info">
+							<h2>Пицца<br>Неополитана</h2>
+							<p>Великолепная, пикантная, горячая</br> итальянская пицца с аппетитным</br> французским сыром.</p>
+							<div class="select-button button">
+								<i class="fa fa-check" aria-hidden="true"></i>Выбрать
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<img src="img/pizza.png" alt="pizza" class="img-fluid hidden-sm-down">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Select pizza start-->
+	<section class="select-pizza">
+		<div class="container fill">
+			<div class="row">
+				<div class="bottom-arrow"><i class="fa fa-angle-double-down" aria-hidden="true"></i></div>
+				<h1>Выбрать пиццу</h1>
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-10 offset-sm-1">
+							<div class="owl-wrapper">
+								<div class="owl-carousel pizza-slider">
+									<div class="pizza-item">
+										<div class="cover">
+											<img src="img/neapolitana.png" class="img-fluid" alt="">
+											<div class="price">1 345 <span>руб.</span></div>
+										</div>
+										<div class="pizza-info">
+											<h2>ПИЦЦА 1, 26 СМ</h2>
+											<p>Манящая, свежая, аппетитная классическая Неаполитана скрасит любой вечер в любой компании. <br>
+											<span><b>Состав:</b> сыр, грибы, чеснок, острый перец, еще длинное наименование</span>
+											<div class="pizza-select-button button">
+												<i class="fa fa-check" aria-hidden="true"></i>Выбрать
+											</div>
+											</p>
+										</div>
+									</div>
+									<div class="pizza-item">
+										<div class="cover">
+											<img src="img/neapolitana.png" class="img-fluid" alt="">
+											<div class="price">1 345 <span>руб.</span></div>
+										</div>
+										<div class="pizza-info">
+											<h2>ПИЦЦА 2, 26 СМ</h2>
+											<p>Манящая, свежая, аппетитная классическая Неаполитана скрасит любой вечер в любой компании. <br>
+											<span><b>Состав:</b> сыр, грибы, чеснок, острый перец, еще длинное наименование</span>
+											<div class="pizza-select-button button">
+												<i class="fa fa-check" aria-hidden="true"></i>Выбрать
+											</div>
+											</p>
+										</div>
+									</div>
+									<div class="pizza-item">
+										<div class="cover">
+											<img src="img/neapolitana.png" class="img-fluid" alt="">
+											<div class="price">1 345 <span>руб.</span></div>
+										</div>
+										<div class="pizza-info">
+											<h2>ПИЦЦА 3, 26 СМ</h2>
+											<p>Манящая, свежая, аппетитная классическая Неаполитана скрасит любой вечер в любой компании. <br>
+											<span><b>Состав:</b> сыр, грибы, чеснок, острый перец, еще длинное наименование</span>
+											<div class="pizza-select-button button">
+												<i class="fa fa-check" aria-hidden="true"></i>Выбрать
+											</div>
+											</p>
+										</div>
+									</div>
+									<div class="pizza-item">
+										<div class="cover">
+											<img src="img/neapolitana.png" class="img-fluid" alt="">
+											<div class="price">1 345 <span>руб.</span></div>
+										</div>
+										<div class="pizza-info">
+											<h2>ПИЦЦА 4, 26 СМ</h2>
+											<p>Манящая, свежая, аппетитная классическая Неаполитана скрасит любой вечер в любой компании. <br>
+											<span><b>Состав:</b> сыр, грибы, чеснок, острый перец, еще длинное наименование</span>
+											<div class="pizza-select-button button">
+												<i class="fa fa-check" aria-hidden="true"></i>Выбрать
+											</div>
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Select pizza end -->
+
+	<!-- Salad section start-->
+	<section class="select-salad">
+		<div class="bottom-arrow"><i class="fa fa-angle-double-down" aria-hidden="true"></i></div>
+		<div class="container">
+			<div class="row">
+				<h1>Выбрать салат</h1>
+			</div>
+			<div class="row">
+				<p class="salad-describe describe">
+					Не забудьте выбрать свежие закуски и салаты от нашего шеф-повара,<br>
+					которые гармонично дополнят ваше меню сегодня.
+				</p>
+			</div>
+			<div class="row">
+				<div class="owl-carousel salad-slider">
+					<div class="salad-item">
+						<div class="salad-cover">
+							<div class="salad-price"><div><span>125</span> р.<br><span>100</span> гр.</div></div>
+						</div>
+						<div class="salad-info">
+							<h2>Салат греческий</h2>
+							<p>Лучшее дополнение к любому столу из свежих овощей</p>
+						</div>
+						<div class="salad-ingr">
+							<span>Состав:</span> сыр, грибы, чеснок, острый перец, еще длинное наименование
+						</div>
+						<div class="salad-button button">
+							<i class="fa fa-check" aria-hidden="true"></i>Выбрать
+						</div>
+					</div>
+					<div class="salad-item">
+						<div class="salad-cover">
+							<div class="salad-price"><div><span>125</span> р.<br><span>100</span> гр.</div></div>
+						</div>
+						<div class="salad-info">
+							<h2>Салат греческий</h2>
+							<p>Лучшее дополнение к любому столу из свежих овощей</p>
+						</div>
+						<div class="salad-ingr">
+							<span>Состав:</span> сыр, грибы, чеснок, острый перец, еще длинное наименование
+						</div>
+						<div class="salad-button button">
+							<i class="fa fa-check" aria-hidden="true"></i>Выбрать
+						</div>
+					</div>
+					<div class="salad-item">
+						<div class="salad-cover">
+							<div class="salad-price"><div><span>125</span> р.<br><span>100</span> гр.</div></div>
+						</div>
+						<div class="salad-info">
+							<h2>Салат греческий</h2>
+							<p>Лучшее дополнение к любому столу из свежих овощей</p>
+						</div>
+						<div class="salad-ingr">
+							<span>Состав:</span> сыр, грибы, чеснок, острый перец, еще длинное наименование
+						</div>
+						<div class="salad-button button">
+							<i class="fa fa-check" aria-hidden="true"></i>Выбрать
+						</div>
+					</div>
+					<div class="salad-item">
+						<div class="salad-cover">
+							<div class="salad-price"><div><span>125</span> р.<br><span>100</span> гр.</div></div>
+						</div>
+						<div class="salad-info">
+							<h2>Салат греческий</h2>
+							<p>Лучшее дополнение к любому столу из свежих овощей</p>
+						</div>
+						<div class="salad-ingr">
+							<span>Состав:</span> сыр, грибы, чеснок, острый перец, еще длинное наименование
+						</div>
+						<div class="salad-button button">
+							<i class="fa fa-check" aria-hidden="true"></i>Выбрать
+						</div>
+					</div>
+					<div class="salad-item">
+						<div class="salad-cover">
+							<div class="salad-price"><div><span>125</span> р.<br><span>100</span> гр.</div></div>
+						</div>
+						<div class="salad-info">
+							<h2>Салат греческий</h2>
+							<p>Лучшее дополнение к любому столу из свежих овощей</p>
+						</div>
+						<div class="salad-ingr">
+							<span>Состав:</span> сыр, грибы, чеснок, острый перец, еще длинное наименование
+						</div>
+						<div class="salad-button button">
+							<i class="fa fa-check" aria-hidden="true"></i>Выбрать
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Salad section end-->
+
+	<!-- Drinks section start-->
+	<section class="select-drinks">
+		<div class="bottom-arrow"><i class="fa fa-angle-double-down" aria-hidden="true"></i></div>
+		<div class="container">
+			<div class="row">
+				<h1>Выбрать напитки</h1>
+			</div>
+			<div class="row">
+				<p class="drinks-describe describe">Что может быть лучше освежающего газированного напитка в</br>
+					дополнение к горячей ароматной пицце.</p>
+			</div>
+			<div class="row">
+				<div class="col-sm-8 offset-sm-2">
+					<div class="owl-carousel drinks-slider">
+						<div class="drinks-item">
+							<div class="drinks-item-cover">
+								<img src="img/cocacola.png" class="img-fluid" alt="">
+							</div>
+							<div class="drinks-item-describe">
+								<h2>кока-кола 1,5 л</h2>
+								<p>86 руб.</p>
+							</div>
+							<div class="drinks-item-button button">
+								<i class="fa fa-check" aria-hidden="true"></i>Выбрать
+							</div>
+						</div>
+						<div class="drinks-item">
+							<div class="drinks-item-cover">
+								<img src="img/cocacola.png" class="img-fluid" alt="">
+							</div>
+							<div class="drinks-item-describe">
+								<h2>кока-кола 1,5 л</h2>
+								<p>86 руб.</p>
+							</div>
+							<div class="drinks-item-button button">
+								<i class="fa fa-check" aria-hidden="true"></i>Выбрать
+							</div>
+						</div>
+						<div class="drinks-item">
+							<div class="drinks-item-cover">
+								<img src="img/cocacola.png" class="img-fluid" alt="">
+							</div>
+							<div class="drinks-item-describe">
+								<h2>кока-кола 1,5 л</h2>
+								<p>86 руб.</p>
+							</div>
+							<div class="drinks-item-button button">
+								<i class="fa fa-check" aria-hidden="true"></i>Выбрать
+							</div>
+						</div>
+						<div class="drinks-item">
+							<div class="drinks-item-cover">
+								<img src="img/cocacola.png" class="img-fluid" alt="">
+							</div>
+							<div class="drinks-item-describe">
+								<h2>кока-кола 1,5 л</h2>
+								<p>86 руб.</p>
+							</div>
+							<div class="drinks-item-button button">
+								<i class="fa fa-check" aria-hidden="true"></i>Выбрать
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Drinks section end -->
+
+	<!-- Delivery start -->
+	<section class="delivery-info">
+		<div class="bottom-arrow"><i class="fa fa-angle-double-down" aria-hidden="true"></i></div>
+		<div class="container">
+			<div class="row">
+				<h1>Доставка и оплата</h1>
+			</div>
+			<div class="row">
+				<p class="delivery-info-describe describe">
+					Не зависимо от того, какой сейчас час, какая погода и как далеко вы<br>
+					живете - наша оперативная доставка с радостью привезет вам заказ<br>
+					в любое время и по любому адресу г. Ачинска.
+				</p>
+			</div>
+		</div>
+	</section>
+	<!-- Delivery end -->
+
+	<!-- order start -->
+	<section class="order">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-7">
+					<form action="" class="callback">
+						<h1>Адрес и время доставки</h1>
+						<p>Пожалуйста, выберите удобную дату и время доставки, введите ваш полный адрес и телефон, чтобы мы могли убедиться в том, что ваш заказ нашел вас:</p>
+						<div class="first-line d-flex justify-content-between flex-wrap">
+							<div>
+								<h4>Дата доставки:</h4>
+								<input type="text" class="input">
+							</div>
+							<div>
+								<h4>Время доставки:</h4>
+								<input type="text" class="input">
+							</div>
+						</div>
+						<div class="second-line d-flex justify-content-between flex-wrap">
+							<div>
+								<h4>Ваше имя:</h4>
+								<input type="text" class="input">
+							</div>
+							<div>
+								<h4>Ваш телефон:</h4>
+								<input type="text" class="input">
+							</div>
+						</div>
+						<div>
+							<h4>Адрес доставки:</h4>
+							<input type="text" class="delivery-adress input">
+						</div>
+						<div class="last-line">
+							<h4>Комментарий к заказу:</h4>
+							<textarea name="Text1" class="order-comment input"></textarea>
+						</div>
+					</form>
+				</div>
+				<div class="col-sm">
+					<div class="order-info">
+						<div class="order-info-inner">
+							<h1>ваш <span>заказ</span></h1>
+							<p>В вашей корзине ничего нет,
+								выберите что-нибудь из предложенного выше.
+							</p>
+							<div class="summary">
+								итого: <span>0 руб.</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- order end -->
+	<footer style="background-image: url(img/footer_bg.png);">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3">
+					<h3>пицца на дом</h3>
+					<p>Моментальная доставка свежей горячей пиццы прямо к вам домой<br> или в офис.</p>
+					<div class="e-mail"><i class="fa fa-envelope-o" aria-hidden="true"></i> <span>pizzanadom@yandex.ru</span></div>
+					<div class="f-phone"><i class="fa fa-phone" aria-hidden="true"></i>+7 (999) 999-99-99</div>
+					<div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i><div>Москва, Коломенское ш.,<br>дом 46а, оф. 345</div></div>
+				</div>
+				<div class="col-sm-3">
+					<h3>заказать</h3>
+					<ul class="footer-bar">
+						<li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> <span>Начало</span></a></li>
+						<li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> <span>Выбрать пиццу</span></a></li>
+						<li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> <span>Выбрать закуску</span></a></li>
+						<li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> <span>Выбрать напитки</span></a></li>
+					</ul>
+				</div>
+				<div class="col-sm-4 .offset-sm-1">
+					<h3>Галлерея Instagram</h3>
+					<div class="gallery d-flex flex-wrap justify-content-between">
+						<img src="img/inst-item.png" alt="">
+						<img src="img/inst-item.png" alt="">
+						<img src="img/inst-item.png" alt="">
+						<img src="img/inst-item.png" alt="">
+						<img src="img/inst-item.png" alt="">
+						<img src="img/inst-item.png" alt="">
+						<img src="img/inst-item.png" alt="">
+						<img src="img/inst-item.png" alt="">
+						<img src="img/inst-item.png" alt="">
+						<img src="img/inst-item.png" alt="">
+						<img src="img/inst-item.png" alt="">
+						<img src="img/inst-item.png" alt="">
+					</div>
+				</div>
+				<div class="col-sm-2">
+					<h3>мы в соц. сетях</h3>
+					<div class="social-networks d-flex flex-column">
+						<div class="net-item">
+							<div><i class="fa fa-facebook" aria-hidden="true"></i></div>
+							<a href="#">facebook</a>
+						</div>
+						<div class="net-item">
+							<div><i class="fa fa-twitter" aria-hidden="true"></i></div>
+							<a href="#">twitter</a>
+						</div>
+						<div class="net-item">
+							<div><i class="fa fa-vk" aria-hidden="true"></i></div>
+							<a href="#">vk</a>
+						</div>
+						<div class="net-item">
+							<div><i class="fa fa-linkedin" aria-hidden="true"></i></div>
+							<a href="#">linkedin</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<link rel="stylesheet" href="css/main.min.css">
+	<script src="js/scripts.min.js" type="text/javascript"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+</body>
+</html>
