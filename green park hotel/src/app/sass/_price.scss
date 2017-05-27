@@ -1,0 +1,48 @@
+.price{
+  padding-top: 85px;
+  .thumbnail{
+    position: relative;
+  }
+  .item{
+    margin-top: 80px;
+    width: 263px;
+    height: 400px;
+    border: 1px solid #95989A;
+    .square{
+      position: absolute;
+      bottom: -32px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 64px;
+      height: 64px;
+      font-family: "ralewaySemiBold", sans-serif;
+      font-size: 18px;
+      background-color: $accent;
+      color: #fff;
+      line-height: 64px;
+      text-align: center;
+      border-radius: 50%;
+    }
+  }
+  p{
+    font-family: "ralewayRegular", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding: 38px 25px 0px;
+    margin-bottom: 12px;
+    line-height: 19px;
+  }
+  span{
+    display: block;
+    text-align: center;
+    height: 48px;
+    line-height: 48px;
+    width: 100%;
+    background-color: #D8D8D8;
+    font-family: "ralewayLight", sans-serif;
+    font-size: 20px;
+  }
+  .button{
+    width: 100%;
+  }
+}

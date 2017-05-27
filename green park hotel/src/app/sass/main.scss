@@ -1,0 +1,40 @@
+@import "fonts";
+@import "libs";
+@import "vars";
+@import "masthead";
+@import "features";
+@import "views";
+@import "rooms";
+@import "price";
+@import "callback";
+@import "footer";
+body{
+  padding-top: 70px;
+}
+.button{
+  width: 168px;
+  height: 47px;
+  background-color: $accent;
+  text-transform: uppercase;
+  font-family: "ralewayLight", sans-serif;
+  font-size: 20px;
+  color: #fff;
+  line-height: 47px;
+  text-align: center;
+  transition: all .5s ease;
+  &:hover{
+    cursor: pointer;
+    background-color: lighten($accent, 20%);
+  }
+}
+h1{
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "ralewayBold", sans-serif;
+  font-size: 32px;
+}
+hr{
+  max-width: 165px;
+  border-top: 10px solid $accent;
+}
+@import "media"; // Всегда в конце

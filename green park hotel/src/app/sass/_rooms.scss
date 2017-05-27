@@ -1,0 +1,28 @@
+.rooms{
+  padding-top: 70px;
+  .container{
+    margin-top: 78px;
+  }
+  p{
+    padding-left: 68px;
+    padding-right: 30px;
+    font-family: "ralewayRegular", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .button{
+    margin-left: 68px;
+    margin-top: 25px;
+    width: 263px;
+  }
+  .fotorama{
+    position: relative;
+    &__nav-wrap{
+      position: absolute;
+      bottom: 0;
+    }
+    &__thumb-border{
+      border-color: $accent;
+    }
+  }
+}

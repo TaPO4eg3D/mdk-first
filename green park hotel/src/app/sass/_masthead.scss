@@ -1,0 +1,100 @@
+nav{
+  height: 70px;
+  background-color: #000 !important;
+  .nav-link{
+    text-transform: uppercase;
+    color: #fff !important;
+    font-size: 16px;
+    font-family: "opensansBold", sans-serif;
+  }
+  .active{
+    position: relative;
+    &:after{
+      content: '';
+      position: absolute;
+      width: 90%;
+      height: 9px;
+      left: 0;
+      right: 0;
+      margin: auto;
+      bottom: -15px;
+      background-color: $accent;
+    }
+  }
+}
+
+header{
+  position: relative;
+  .logo{
+    z-index: 100;
+    position: absolute;
+    left: 32px;
+    top: 26px;
+  }
+  .slide{
+    width: 1140px;
+    height: 540px;
+    max-height: 540px;
+  }
+}
+
+.header-info{
+  z-index: 100;
+  position: absolute;
+  width: 340px;
+  height: 400px;
+  background-color: rgba(#9A9A9A, .75);
+  right: 50px;
+  top: 56px;
+  h2{
+    font-family: "ralewayBold", sans-serif;
+    font-family: 32px;
+    color: $accent;
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+  p{
+    color: #fff;
+    font-family: "robotoRegular";
+    font-size: 18px;
+    padding: 24px 20px;
+    line-height: 22px;
+  }
+  .button{
+    margin-left: 20px;
+    margin-top: 27px;
+  }
+}
+
+.owl-carousel{
+  position: relative;
+  .owl-dots{
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    bottom: 38px;
+    transform: translateX(-50%);
+    .owl-dot{
+      display: inline-block;
+    }
+    span{
+      width: 15px;
+      height: 17px;
+      color: #505050;
+      margin-left: 17px;
+      &:hover{
+        color: darken($accent, 10%);
+      }
+      &:before{
+        font-family: "FontAwesome";
+        content: "\f111";
+      }
+    }
+    .active{
+      span{
+        color: $accent;
+      }
+    }
+  }
+}
