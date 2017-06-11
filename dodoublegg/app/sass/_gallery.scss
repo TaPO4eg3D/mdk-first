@@ -1,0 +1,14 @@
+.gallery{
+  padding-top: 75px;
+  .fotorama{
+    padding-top: 65px;
+    position: relative;
+    &__nav-wrap{
+      position: absolute;
+      bottom: 0;
+    }
+    &__thumb-border{
+      border-color: $accent;
+    }
+  }
+}
