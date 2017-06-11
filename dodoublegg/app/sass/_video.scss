@@ -1,0 +1,28 @@
+.video{
+  padding-top: 75px;
+  .video-carousel{
+    padding-top: 75px;
+  }
+  iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .owl-nav{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    .owl-prev, .owl-next{
+      position: absolute;
+      color: #2980B9;
+      font-size: 40px;
+    }
+    .owl-prev{
+      left: 70px;
+    }
+    .owl-next{
+      right: 70px;
+    }
+  }
+}
