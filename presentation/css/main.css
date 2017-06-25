@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+.first-slide {
+  position: relative; }
+  .first-slide h3 {
+    font-family: 'Roboto', sans-serif; }
+  .first-slide h4 {
+    font-family: 'Roboto', sans-serif; }
+  .first-slide h3, .first-slide h4 {
+    position: relative; }
+  .first-slide .avatar {
+    position: relative;
+    background: none;
+    margin-top: 60px;
+    border: 0;
+    box-shadow: none;
+    top: -35px; }
+  .first-slide .atng-mention {
+    font-size: 22px;
+    position: relative; }
+
+/*# sourceMappingURL=main.css.map */
