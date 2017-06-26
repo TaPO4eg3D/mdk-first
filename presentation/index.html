@@ -2,9 +2,10 @@
 
 <head>
   <link rel="stylesheet" href="css/reveal.css">
-  <link rel="stylesheet" href="css/theme/moon.css">
+  <link rel="stylesheet" href="css/theme/blood.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -16,9 +17,33 @@
         </div>
         <img class="avatar animated flipInX" src="https://s3-us-west-1.amazonaws.com/mdk-projects/profile.png" alt="">
         <h3 class="animated fadeinDown">Портфолио</h3>
+        <p>
+          ПМ 03 Выполнение работ по профессии <br> "Оператор электронно-вычислительных и вычислительных машин"
+        </p>
         <h4 class="animated fadeinDown">Фомин Денис, ИС-15 второй курс</h4>
       </section>
-      <section class="second-slide">
+      <section class="second-slide" data-background-color="#00A388">
+        <h2>Архитектура сайта</h2>
+        <div class="arch">
+          <div class="backend">
+            <h4>Back-end</h4>
+            <div class="back-tech">
+              <img src="https://www.djangoproject.com/s/img/logo-django.42234b631760.svg" alt="">
+              <i class="fa fa-plus" aria-hidden="true"></i>
+              <img src="https://raw.githubusercontent.com/docker-library/docs/01c12653951b2fe592c1f93a13b4e289ada0e3a1/postgres/logo.png" alt="">
+            </div>
+          </div>
+          <div class="frontend">
+            <h4>Front-end</h4>
+            <div class="front-tech">
+              <img src="https://morpht.com/files/post/thumbnail/bootstrap_solid.png">
+              <i class="fa fa-plus" aria-hidden="true"></i>
+              <img src="http://howtodevelop.net/wp-content/uploads/2017/05/jquery.png">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
         <a href="https://mdk-portfolio.herokuapp.com/">Ссылка на сайт</a>
       </section>
     </div>
@@ -26,9 +51,6 @@
   <script src="reveal.js"></script>
   <script>
     Reveal.initialize({
-      markdown: {
-        smartypants: true
-      }
     });
   </script>
 </body>
